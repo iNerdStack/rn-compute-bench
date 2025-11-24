@@ -14,7 +14,7 @@ jint JNI_OnLoad(JavaVM *vm, void *reserved) {
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_rncomputebench_RnComputeBenchPackage_nativeSetDataPath(JNIEnv *env, jclass clazz, jstring jDataPath) {
+Java_com_rncomputebench_lib_RnComputeBenchPackage_nativeSetDataPath(JNIEnv *env, jclass clazz, jstring jDataPath) {
   const char* cDataPath = env->GetStringUTFChars(jDataPath, nullptr);
   auto dataPath = std::string(cDataPath);
   env->ReleaseStringUTFChars(jDataPath, cDataPath);

@@ -1,6 +1,6 @@
 {
   "name": "rn-compute-bench",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CPU performance benchmarking library for React Native with MD5 brute-force implementations in JavaScript, Rust, and Kotlin",
   "workspaces": [
     "example"

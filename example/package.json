@@ -8,6 +8,7 @@
     "android:build": "cd android && ./gradlew assembleDebug && cd ..",
     "android:release": "cd android && ./gradlew assembleRelease && cd ..",
     "android:prod": "npm run android:clean && npm run android:release",
+    "release:android": "bash scripts/release-android.sh",
     "start": "react-native start",
     "start:reset": "react-native start --reset-cache",
     "lint": "eslint .",

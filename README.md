@@ -17,9 +17,9 @@ Perfect for profiling device performance, comparing native vs JS execution, and 
 
 ## Features
 
-- 🎯 **Type-Safe API** - Full TypeScript support with detailed types
-- ⚡ **Production Ready** - Optimized implementations with cancellation support
-- 🎨 **Example App Included** - Full-featured benchmark UI
+- **Type-Safe API** - Full TypeScript support with detailed types
+- **Production Ready** - Optimized implementations with cancellation support
+- **Example App Included** - Full-featured benchmark UI
 
 ## Installation
 
@@ -184,11 +184,11 @@ interface BruteForceResult {
 
 Don't want to build from source? Download and install the pre-built benchmark app:
 
-**[📱 Download APK (v0.1.0)](./releases/android/rn-compute-bench-v0.1.0.apk)**
+**[Download APK](./releases/android/rn-compute-bench.apk)**
 
 **Requirements**: Android 6.0 (API 23) or higher
 
-See the [releases folder](./releases) for more details and future versions.
+See the [releases folder](./releases) for more details.
 
 ### Build from Source
 

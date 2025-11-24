@@ -1,0 +1,156 @@
+# OSX
+.DS_Store
+*.swp
+*.swo
+*~
+
+# XDE
+.expo/
+
+# VSCode
+.vscode/
+jsconfig.json
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+**/.xcode.env.local
+
+# Android/IntelliJ
+.classpath
+.cxx
+.gradle
+.idea
+.project
+.settings
+local.properties
+android.iml
+*.apk
+!releases/**/*.apk
+*.aab
+
+# Build artifacts
+android/build/
+android/app/build/
+example/android/build/
+example/android/app/build/
+ios/build/
+example/ios/build/
+
+# Cocoapods
+example/ios/Pods
+Pods/
+*.xcworkspace
+!*.xcodeproj/project.xcworkspace
+
+# Ruby
+example/vendor/
+example/.bundle
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Expo
+.expo/
+
+# Turborepo
+.turbo/
+
+# React Native Codegen
+ios/generated
+android/generated
+
+# Craby generated files (not implementation files)
+.craby/
+cpp/bridging-generated.hpp
+cpp/CxxBruteForceModule.cpp
+cpp/CxxBruteForceModule.hpp
+android/src/main/jni/src/
+android/src/main/jni/include/
+ios/src/
+ios/include/
+crates/*/src/generated.rs
+crates/*/src/ffi.rs
+crates/*/src/lib.rs
+crates/*/include/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Native library output
+android/src/main/jni/libs/
+ios/framework/
+*.so
+*.a
+*.framework
+*.xcframework
+
+# JavaScript build output
+dist/
+/lib/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+docx/
+
+# Debug files
+*.dSYM/
+*.dSYM.zip
+
+
+# AI Assistant Context (not for public repo)
+CLAUDE.md
+.claude/

@@ -1,0 +1,6 @@
+[project]
+name = "rn_compute_bench"
+source_dir = "src"
+
+[android]
+package_name = "com.rncomputebench"

@@ -62,7 +62,7 @@ export const ModeSelector: React.FC<ModeSelectorProps> = ({
         </TouchableOpacity>
       </View>
       <Text style={styles.description}>
-        Compare JavaScript vs Rust (via Craby) vs Kotlin (native Android)
+        Compare JavaScript (React Native) vs Rust (TurboModules + FFI) vs Kotlin (Native Android)
       </Text>
     </View>
   );

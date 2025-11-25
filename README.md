@@ -9,9 +9,9 @@ CPU performance benchmarking library for React Native with MD5 brute-force imple
 
 **rn-compute-bench** is a React Native library that enables developers to benchmark CPU-intensive operations across three different execution environments:
 
-- **JavaScript** - Pure JS implementation
-- **Rust** - Native high-performance implementation via [Craby](https://github.com/leegeunhyeok/craby)
-- **Kotlin** - Native Android implementation with coroutines
+- **JavaScript (React Native)** - Pure JS implementation running in the JS engine
+- **Rust (TurboModules + FFI)** - Native high-performance implementation via TurboModules and Rust FFI
+- **Kotlin (Native Android)** - Native Android implementation with coroutines
 
 Perfect for profiling device performance, comparing native vs JS execution, and testing CPU-bound workloads in production apps.
 
@@ -236,7 +236,7 @@ If you want to modify the native implementations:
 # Install dependencies
 yarn install
 
-# Generate Craby bindings
+# Generate TurboModule bindings (using Craby)
 npx crabygen
 
 # Build native modules

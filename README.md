@@ -180,6 +180,20 @@ interface BruteForceResult {
 
 ## Example App
 
+### Screenshots
+
+<div>
+  <img src="./example/screenshots/landing-screen.png" width="200" alt="Landing Screen" />
+  <img src="./example/screenshots/js-result.png" width="200" alt="JavaScript Result" />
+  <img src="./example/screenshots/kotlin-result.png" width="200" alt="Kotlin Result" />
+  <img src="./example/screenshots/rust-result.png" width="200" alt="Rust Result" />
+</div>
+
+**Performance Comparison** (cracking "deal" hash - 4 characters, 3,394,956 attempts):
+- **JavaScript**: 131.84s @ 25,751 checks/sec
+- **Kotlin**: 4.88s @ 695,973 checks/sec (27x faster)
+- **Rust**: 2.09s @ 1,626,009 checks/sec (63x faster)
+
 ### Try the Pre-built Android APK
 
 Don't want to build from source? Download and install the pre-built benchmark app:
